@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Global, reset da página*/
+}
+
+body {
+  background-color: black;
+  /* fundo do corpo da página*/
+}
+
+.container-main {
+  background-color: #4b5358;
+  width: 360px;
+  height: 720px;
+  box-sizing: border-box;
+  margin: 120px auto; /* margem a distância pra fora 120px e o automatico centralizando horizontalmente*/
+  padding: 60px; /* preenchimento conteúdo da caixa */
+  border-radius: 15px;
+  text-align: center;
+  /* caixa do meio que engloba todo o conteúdo (com as fotos as listas etc)*/
+}
+.container-image {
+  width: 258px;
+}
+
+.container-image img {
+  width: 236px;
+  border-radius: 30px;
+  /* caixa que contem a imagem*/
+}
+
+.container-social ul li{
+list-style-type: none;
+}
+
+.container-social a {
+    text-decoration: none;
+    color: white;
+}
+
+div {
+}
